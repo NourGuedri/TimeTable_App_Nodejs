@@ -1,0 +1,201 @@
+{
+  "rooms": [
+    {
+      "id": "r1732747220711",
+      "room_name": "info10",
+      "capacity": 50,
+      "building": "A",
+      "floor": 1
+    },
+    {
+      "id": "r1732747268265",
+      "room_name": "Amphie2",
+      "capacity": 100,
+      "building": "A",
+      "floor": 2
+    },
+    {
+      "id": "r1732759261001",
+      "room_name": "g119",
+      "capacity": 30,
+      "building": "G",
+      "floor": 100
+    }
+  ],
+  "teachers": [
+    {
+      "id": "a1732727860054",
+      "teacher_id": "T1732727860054",
+      "first_name": "abir",
+      "last_name": "khaledi",
+      "email": "abir.khaledi@gmail.com",
+      "department": "IT",
+      "phone": "12345678"
+    },
+    {
+      "id": "a1732746717740",
+      "teacher_id": "T1732746717740",
+      "first_name": "nour",
+      "last_name": "guedri",
+      "email": "gued@gmail.com",
+      "department": "IT",
+      "phone": "56725104"
+    },
+    {
+      "id": "a1732757832671",
+      "teacher_id": "T1732757832671",
+      "first_name": "Ines",
+      "last_name": "Ghorbel",
+      "email": "ines@gmail.com",
+      "department": "IT",
+      "phone": "45673456"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "a1732746989740",
+      "subject_id": "S1732746989740",
+      "subject_name": "Devops",
+      "subject_code": "dev1",
+      "department": "IT",
+      "description": "devops subject"
+    },
+    {
+      "id": "a1732747328224",
+      "subject_id": "S1732747328224",
+      "subject_name": "ML",
+      "subject_code": "dev3",
+      "department": "IT",
+      "description": "machine learning "
+    },
+    {
+      "id": "a1732759136470",
+      "subject_id": "S1732759136469",
+      "subject_name": "Flutter",
+      "subject_code": "f1",
+      "department": "IT",
+      "description": "dev mobile"
+    }
+  ],
+  "classes": [
+    {
+      "id": "c1732747129232",
+      "class_id": "c1732747129230",
+      "subject_id": "a1732746989740",
+      "class_name": "Dsi31",
+      "students": [
+        "a1732747077047",
+        "a1732747110470"
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "id": "affd",
+      "subject_id": "a1732746989740",
+      "teacher_id": "a1732727860054",
+      "room_id": "r1732747220711",
+      "session_date": "Monday",
+      "class_id": "C002",
+      "start_time": "08:30",
+      "end_time": "10:00",
+      "session_id": "SS1732747681731"
+    },
+    {
+      "id": "5bea",
+      "subject_id": "a1732747328224",
+      "teacher_id": "a1732746717740",
+      "room_id": "r1732747268265",
+      "session_date": "Wednesday",
+      "class_id": "C002",
+      "start_time": "12:00",
+      "end_time": "13:00",
+      "session_id": "SS1732757694905"
+    },
+    {
+      "id": "ad07",
+      "subject_id": "a1732759136470",
+      "teacher_id": "a1732757832671",
+      "room_id": "r1732759261001",
+      "session_date": "Monday",
+      "class_id": "C002",
+      "start_time": "08:30",
+      "end_time": "10:00",
+      "session_id": "SS1732759291723"
+    },
+    {
+      "id": "bb1c",
+      "subject_id": "a1732759136470",
+      "teacher_id": "a1732757832671",
+      "room_id": "r1732759261001",
+      "session_date": "Monday",
+      "class_id": "C002",
+      "start_time": "08:30",
+      "end_time": "10:00",
+      "session_id": "SS1732759318763"
+    },
+    {
+      "id": "7ac8",
+      "subject_id": "a1732759136470",
+      "teacher_id": "a1732757832671",
+      "room_id": "r1732759261001",
+      "session_date": "Monday",
+      "class_id": "C002",
+      "start_time": "10:15",
+      "end_time": "11:45",
+      "session_id": "SS1732759338697"
+    }
+  ],
+  "students": [
+    {
+      "id": "a1732747077047",
+      "student_id": "S1732747077047",
+      "first_name": "malek",
+      "last_name": "skoury",
+      "email": "malek@gmail.com",
+      "class": "Dsi31",
+      "phone": "12345677"
+    },
+    {
+      "id": "a1732747110470",
+      "student_id": "S1732747110470",
+      "first_name": "hbiba",
+      "last_name": "arbi",
+      "email": "helli@gmail.com",
+      "class": "098765433",
+      "phone": ""
+    },
+    {
+      "id": "a1732759216301",
+      "student_id": "S1732759216301",
+      "first_name": "ale",
+      "last_name": "mahmoudi",
+      "email": "loulou@gmail.com",
+      "class": "RSI",
+      "phone": "13579643"
+    }
+  ],
+  "users": [
+    {
+      "user_id": "U001",
+      "username": "admin",
+      "password": "000",
+      "role": "admin",
+      "id": "4f78"
+    },
+    {
+      "user_id": "U002",
+      "username": "teacher",
+      "password": "000",
+      "role": "teacher",
+      "id": "6b52"
+    },
+    {
+      "user_id": "U003",
+      "username": "nour",
+      "password": "000",
+      "role": "student",
+      "id": "e190"
+    }
+  ]
+}
